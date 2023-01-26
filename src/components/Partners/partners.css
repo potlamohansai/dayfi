@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Degular;
+    src: url("../../assests/Degular\ Bold.otf") format("opentype");
+}
+
+.partners_maindiv{
+    background-color: #F8E4D4;
+    font-family: Degular;
+}
+
+.heading {
+    padding-top: 100px;
+
+}
+
+.listofpartners img{
+    height: 150px;
+    width: 150px;
+}
+
+.listofpartners {
+    padding: 20px;
+    
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.partner {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .partners_maindiv {
+           display: none;
+        }
+
+    .partner {
+        display: block;
+        background-color: black;
+        color:white;
+        padding: 20px;
+    }
+
+    .partner p {
+        font-size: 10px;
+        display: inline;
+    }
+    .partner p:last-of-type {
+        font-size: 20px;
+    }
+}

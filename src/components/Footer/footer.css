@@ -1,0 +1,144 @@
+.footer_maindiv {
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.subscribe_maindiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: #464646;
+    z-index: 1;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -40px;
+
+}
+
+.sub_heading{
+    font-size:15px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.sub_para{
+    color: #F8E4D4;
+    width: 100%;
+    font-size: 10px;
+    margin: 0;
+}
+
+.inputfield {
+    background-color: transparent;
+    border: none;
+    color: #F8E4D4;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.inputbutton {
+    padding: 10px;
+    cursor: pointer;
+}
+.inputdiv {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-right: 5px;
+}
+
+.creed {
+    margin-top: 100px;
+}
+
+.footerlist{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 100px 10px;
+}
+
+.line {
+    width: 70%;
+    border: 0.5px solid #F8E4D4;
+    margin: auto;
+}
+.socialmedia {
+    margin-top: 60px;
+}
+.socialmedia a{
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe_maindiv {
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 0px;
+        position: static;
+        top: 10px;
+
+    }
+
+    .sub_heading {
+        font-size: 22px;
+        font-weight: 1000;
+        text-align: center;
+        padding: 0px 0px;
+
+    }
+
+    .sub_para {
+        color: #F8E4D4;
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .inputfield {
+        background-color: transparent;
+        border: none;
+        color: #F8E4D4;
+        border-radius: 10px;
+        padding: 10px 8px;
+        outline: none;
+    }
+
+    .inputbutton {
+        padding: 5px;
+        cursor: pointer;
+        
+    }
+
+    .inputdiv {
+        background-color: #464646;
+        width: 80%;
+        border-radius: 10px;
+        border: 1px solid white;
+        padding-right: 0px;
+        margin: auto;
+    }
+
+    .creed {
+        margin-top: 100px;
+        font-size: 15px;
+    }
+
+    .footerlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 100px 10px;
+        font-size: 17px;
+    }
+
+}

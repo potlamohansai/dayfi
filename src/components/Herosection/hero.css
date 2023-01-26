@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Degular;
+    src: url("../../assests/Degular\ Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: DegularBold;
+    src: url("../../assests/Degular\ Bold.otf") format("opentype");
+}
+.hero_section{
+    background-image: url(../../assests/Heroblack.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Degular;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero_content {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.headline1 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+.headline2 {
+    text-align: left;
+    font-size: 50px;
+    
+}
+
+p{
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 65%;
+}
+
+.subscribe {
+    text-align: left;
+}
+
+button {
+    height: 52px;
+    width: 242px;
+    border-radius: 10px;
+    background-color: #F8E4D4;
+    font-size: 20px;
+    margin: 10px 0 100px 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .hero_section {
+        background-image: url(../../assests/mobile_hero.gif);
+    }
+
+    .logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .headline1 {
+        text-align: left;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .headline2 {
+        text-align: left;
+        font-size: 30px;
+        line-height: 20px;
+
+    }
+
+    p {
+        text-align: left;
+        margin-top: 20px;
+        margin-right: 0%;
+        font-size: 15px;
+    }
+
+    .subscribe {
+        text-align: left;
+    }
+
+    button {
+        height: 30px;
+        width: 100px; 
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+}
