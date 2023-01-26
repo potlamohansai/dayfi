@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dayfi/static/css/main.20cfd050.css",
+    "main.js": "/dayfi/static/js/main.2756ab45.js",
+    "static/media/Heroblack.gif": "/dayfi/static/media/Heroblack.0529ca48cd72e28cb091.gif",
+    "static/media/mobile_hero.gif": "/dayfi/static/media/mobile_hero.108c6930427d3fa041f1.gif",
+    "static/media/Degular Bold.otf": "/dayfi/static/media/Degular Bold.0ee1948765ff20a5e586.otf",
+    "static/media/Logo_Champagne_Black.png": "/dayfi/static/media/Logo_Champagne_Black.7765fec529fc670fff35.png",
+    "static/media/polygon.png": "/dayfi/static/media/polygon.1e25dffd08be7325e9da.png",
+    "index.html": "/dayfi/index.html",
+    "main.20cfd050.css.map": "/dayfi/static/css/main.20cfd050.css.map",
+    "main.2756ab45.js.map": "/dayfi/static/js/main.2756ab45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20cfd050.css",
+    "static/js/main.2756ab45.js"
+  ]
+}
