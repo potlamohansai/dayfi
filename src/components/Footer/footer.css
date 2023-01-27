@@ -133,12 +133,28 @@
     }
 
     .footerlist {
+        display: grid;
+        grid-template-columns:auto auto;
+        list-style-type: none;
+        margin: 100px 10px 50px 10px;
+        font-size: 15px;
+        order:2;
+        text-align: left;
+    }
+
+    .container {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        list-style-type: none;
-        margin: 100px 10px;
-        font-size: 17px;
     }
+
+    .one {
+        order:1;
+    }
+    .two {
+        order:2;
+    }
+     .line {
+        display: none;
+     }
 
 }

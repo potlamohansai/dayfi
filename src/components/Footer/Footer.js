@@ -20,7 +20,9 @@ const Footer = () => {
             </div>
         </div>
         <div className='creed'>Creed : Decentralization : Privacy : Freedom</div>
-        <div>
+
+        <div className='container'>
+        <div className='two'>
             <ul className='footerlist'>
                 <li>Partner with us</li>
                 <li>For developers</li>
@@ -30,10 +32,11 @@ const Footer = () => {
             </ul>
         </div>
         <div className='line'></div>
-        <div className='socialmedia'>
+        <div className='socialmedia one'>
             <a href='https://twitter.com/'><img src={twitter} alt=""/></a>
             <a href='https://twitter.com/'><img src={linkedin} alt=""/></a>
             <a href='https://twitter.com/'><img src={discord} alt=""/></a>
+        </div>
         </div>
     </div>
   )

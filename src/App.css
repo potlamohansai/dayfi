@@ -5,6 +5,21 @@
   box-sizing: border-box;
 }
 
+
+.light_theme {
+  --font-color: black;
+  --background-image: url(./assests/Herocream.gif);
+  --background-image-mble: url(./assests/mobile_hero_cream.gif);
+
+}
+
+.dark_theme {
+  --font-color : white;
+  --background-image : url(./assests/Heroblack.gif);
+  --background-image-mble: url(./assests/mobile_hero.gif);
+}
+
+
 .App {
   text-align: center;
 }

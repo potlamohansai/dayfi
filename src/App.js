@@ -5,6 +5,7 @@ import Hero from './components/Herosection/Hero';
 import Partners from './components/Partners/Partners';
 
 function App() {
+
   return (
     <div className="App">
       <Hero/>
